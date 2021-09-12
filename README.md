@@ -1,3 +1,7 @@
+<p align=center>
+   <img src= alt=icon style="border-radius:50%;">
+</p>
+
 <h1 align=center>
    Suggy
    </h1>
