@@ -9,6 +9,18 @@ npm i suggy
 
 ## Usage
 ```js
+const suggy = require("suggy")
+```
+## Examples
+> Trivia Command
+```js
+const suggy = require("suggy")
+
+client.on("messageCreate", async (message) =>{
+  if(message.content.startsWith("trivia")) {
+      suggy.trivia(message)
+  }
+})
 
 ```
 
