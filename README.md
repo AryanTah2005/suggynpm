@@ -1,4 +1,6 @@
-### Suggy
+<h1 align=center>
+   Suggy
+   </h1>
 
 Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!
 
