@@ -2,7 +2,7 @@
 
 Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!
 
-## Installation
+## 📥 Installation
 ```bash
 npm i suggy
 ```
