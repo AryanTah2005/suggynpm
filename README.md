@@ -12,7 +12,7 @@ npm i suggy
 const suggy = require("suggy")
 ```
 ## Examples
-> Trivia Command
+> Trivia
 ```js
 const { Client } = require("discord.js")
 const suggy = require("suggy")
@@ -27,6 +27,26 @@ client.on("ready" async () =>{
 client.on("messageCreate", async (message) =>{
   if(message.content.startsWith("trivia")) {
       suggy.trivia(message)
+  }
+})
+
+```
+
+> Embedder
+```js
+const { Client } = require("discord.js")
+const suggy = require("suggy")
+const client = new Client({
+   intents: 32767
+})
+
+client.on("ready" async () =>{
+  console.log("Ready!")
+})
+
+client.on("messageCreate", async (message) =>{
+  if(message.content.startsWith("trivia")) {
+      suggy.embedder(message)
   }
 })
 
