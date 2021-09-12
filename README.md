@@ -60,9 +60,9 @@ client.on("messageCreate", async (message) =>{
 
 ```
 
-## Contact Us
+## 📞 Contact Us
 Need help regarding to this package? [Join our Discord Server!](https://suggy.sugger25.repl.co/discord)
 
 
-## License
+## ✍️ License
 License under [MIT](https://choosealicense.com/licenses/mit/). Please do not redistribute the package.
