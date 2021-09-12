@@ -20,6 +20,10 @@ const client = new Client({
    intents: 32767
 })
 
+client.on("ready" async () =>{
+  console.log("Ready!")
+})
+
 client.on("messageCreate", async (message) =>{
   if(message.content.startsWith("trivia")) {
       suggy.trivia(message)
