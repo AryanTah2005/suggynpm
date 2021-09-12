@@ -34,7 +34,7 @@ client.on("messageCreate", async (message) =>{
 })
 
 ```
-![Trivia](src/trivia.jpg)
+![Trivia](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/trivia.png)
 
 
 > Embedder
