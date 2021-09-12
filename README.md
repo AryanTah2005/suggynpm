@@ -37,7 +37,8 @@ client.on("messageCreate", async (message) =>{
 ![Trivia](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/trivia.png)
 
 
-> Embedder
+
+> Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
 const { Client } = require("discord.js")
 const suggy = require("suggy")
@@ -60,4 +61,4 @@ client.on("messageCreate", async (message) =>{
 ```
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+License under [MIT](https://choosealicense.com/licenses/mit/). Please do not redistribute the package
