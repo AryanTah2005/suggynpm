@@ -25,12 +25,17 @@ client.on("ready" async () =>{
 })
 
 client.on("messageCreate", async (message) =>{
-  if(message.content.startsWith("trivia")) {
-      suggy.trivia(message)
+    if(message.content.startsWith("trivia")) {
+      suggy.trivia(message, {
+      placeholder: "Choose an answer", //Optional, Default: "Choices..."
+      time: 30 //Optional, Default: 15 seconds
+      })
   }
 })
 
 ```
+![Trivia](src/trivia.jpg)
+
 
 > Embedder
 ```js
@@ -45,12 +50,7 @@ client.on("ready" async () =>{
 })
 
 client.on("messageCreate", async (message) =>{
-  if(message.content.startsWith("trivia")) {
-      suggy.trivia(message, {
-      placeholder: "Choose an answer", //Optional, Default: "Choices..."
-      time: 30 //Optional, Default: 15 seconds
-      })
-  }
+
   
   if(message.content.startsWith("embedder")) {
       suggy.embedder(message)
