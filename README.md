@@ -14,7 +14,11 @@ const suggy = require("suggy")
 ## Examples
 > Trivia Command
 ```js
+const { Client } = require("discord.js")
 const suggy = require("suggy")
+const client = new Client({
+   intents: 32767
+})
 
 client.on("messageCreate", async (message) =>{
   if(message.content.startsWith("trivia")) {
