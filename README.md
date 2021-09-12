@@ -2,7 +2,9 @@
    Suggy
    </h1>
 
-Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!
+<p align=center>
+   Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!
+</p>
 
 ## 📥 Installation
 ```bash
