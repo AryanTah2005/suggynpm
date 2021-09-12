@@ -46,7 +46,10 @@ client.on("ready" async () =>{
 
 client.on("messageCreate", async (message) =>{
   if(message.content.startsWith("trivia")) {
-      suggy.embedder(message)
+      suggy.embedder(message, {
+      placeholder: "Choose an answer", //Optional, Default: "Choices..."
+      time: 30 //Optional, Default: 15 seconds
+      })
   }
 })
 
