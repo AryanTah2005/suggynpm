@@ -1,0 +1,2 @@
+# suggynpm
+Suggy NPM Package
