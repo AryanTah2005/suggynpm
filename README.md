@@ -59,6 +59,7 @@ client.on("messageCreate", async (message) =>{
 })
 
 ```
+![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
 
 ## 📞 Contact Us
 Need help regarding to this package? [Join our Discord Server!](https://suggy.sugger25.repl.co/discord)
