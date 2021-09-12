@@ -1,5 +1,5 @@
 <p align=center>
-   <img src= alt=icon style="border-radius:50%;">
+   <img src="https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/icon.png" alt=icon style="border-radius:50%;">
 </p>
 
 <h1 align=center>
