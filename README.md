@@ -1,4 +1,4 @@
-<h1 align=center style="font-size=30px;">
+<h1 align=center>
    Suggy
    </h1>
 
