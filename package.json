@@ -13,5 +13,22 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sugger",
-  "license": "ISC"
+  "license": "MIT",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sugger25e/suggynpm.git"
+  },
+  "keywords": [
+    "suggy",
+    "discord.js",
+    "embedder",
+    "trivia",
+    "discord",
+    "embed"
+  ],
+  "bugs": {
+    "url": "https://github.com/Sugger25e/suggynpm/issues"
+  },
+  "homepage": "https://github.com/Sugger25e/suggynpm#readme"
 }
