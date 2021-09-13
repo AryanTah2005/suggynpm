@@ -1,6 +1,6 @@
 # Trivia Command
 
-##Options are optional
+## Options are optional
 
 ```js
 const suggy = require("suggy")
