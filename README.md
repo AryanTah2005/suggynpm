@@ -20,7 +20,7 @@ npm i suggy
 const suggy = require("suggy")
 ```
 ## Examples
-> Trivia
+### Trivia
 ```js
 const { Client } = require("discord.js")
 const suggy = require("suggy")
@@ -46,7 +46,7 @@ client.on("messageCreate", async (message) =>{
 
 
 
-> Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
+### Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
 const { Client } = require("discord.js")
 const suggy = require("suggy")
@@ -68,6 +68,9 @@ client.on("messageCreate", async (message) =>{
 
 ```
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
+
+
+## Looking for more examples? [Check these out!](fkfkfkfkf)
 
 ## 📞 Contact Us
 Need help regarding to this package? [Join our Discord Server!](https://suggy.sugger25.repl.co/discord)
