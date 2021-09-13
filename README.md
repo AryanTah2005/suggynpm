@@ -70,7 +70,7 @@ client.on("messageCreate", async (message) =>{
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
 
 
-## Looking for more examples? [Check these out!](fkfkfkfkf)
+## Looking for full examples? [Check these out!](https://github.com/Sugger25e/suggynpm/tree/main/examples)
 
 ## 📞 Contact Us
 Need help regarding to this package? [Join our Discord Server!](https://suggy.sugger25.repl.co/discord)
