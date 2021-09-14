@@ -1,6 +1,6 @@
-<p align=center>
-   <img src="https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/icon.png" alt=icon style="border-radius:50%;">
-</p>
+<a href="#" align=center>
+   <img src="https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/icon.png" alt=icon height=128px width=128px style="border-radius:50%;">
+</a>
 
 <h1 align=center>
    Suggy
