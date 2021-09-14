@@ -9,10 +9,10 @@
 <p align=center>
    Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!
 </p>
-
-<p align=center>
-![Downloads](https://img.shields.io/npm/dt/suggy.svg) ![Version](https://img.shields.io/npm/v/suggy.svg) ![License](https://img.shields.io/npm/l/suggy.svg)      
-</p>
+  
+  <p align=center>
+ <img src="https://img.shields.io/npm/dt/suggy.svg" alt="Downloads"> <img src="https://img.shields.io/npm/v/suggy.svg" alt="Version"> <img src="https://img.shields.io/npm/l/suggy.svg" alt="License">
+   </p>
 
 ## 📥 Installation
 ```bash
