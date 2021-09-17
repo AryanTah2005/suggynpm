@@ -14,7 +14,11 @@
  <img src="https://img.shields.io/npm/dt/suggy.svg" alt="Downloads"> <img src="https://img.shields.io/npm/v/suggy.svg" alt="Version"> <img src="https://img.shields.io/npm/l/suggy.svg" alt="License">
    </p>
 
-![NPM](https://nodei.co/npm/suggy.png)(https://npmjs.com/package/suggy/)
+   <p align=center>
+   <a href="https://npmjs.com/package/suggy">
+  <img src="https://nodei.co/npm/suggy.png" alt="NPM Package">
+  </a>
+   </p>
 
 ## 📥 Installation
 ```bash
