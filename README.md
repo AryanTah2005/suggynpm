@@ -86,7 +86,7 @@ client.on("messageCreate", async (message) =>{
 Need help, bugs or issues regarding to this package? Join our Discord Server!
    <p align=center>
     <a href="https://discord.gg/egEgFkugXW">
-     <img src="https://invidget.switchblade.xyz/egEgFkugXW" alt="Discord Server">
+     <img src="https://discordapp.com/api/guilds/862268547380019210/widget.png?style=banner2">
      </a>
     </p>
 
