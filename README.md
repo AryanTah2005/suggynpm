@@ -80,10 +80,10 @@ client.on("messageCreate", async (message) =>{
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
 
 
-## Looking for full examples? [Check these out!](https://github.com/Sugger25e/suggynpm/tree/main/examples)
+## You can check full examples [here](https://github.com/Sugger25e/suggynpm/tree/main/examples)
 
-## 📞 Contact Us
-Need help regarding to this package? Join our Discord Server!
+## 📞 Contact
+Need help, bugs or issues regarding to this package? Join our Discord Server!
    <p align=center>
     <a href="https://discord.gg/egEgFkugXW">
      <img src="https://invidget.switchblade.xyz/egEgFkugXW" alt="Discord Server">
