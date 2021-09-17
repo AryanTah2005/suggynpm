@@ -81,16 +81,14 @@ client.on("messageCreate", async (message) =>{
 
 
 ## Looking for full examples? [Check these out!](https://github.com/Sugger25e/suggynpm/tree/main/examples)
-  
-   <p align=center>
-    Also try my Bot!
-   <a href="https://suggy.sugger25.repl.co">
-   <img src="https://dcbadge.vercel.app/api/shield/bot/880696814783852584" alt="Invite my Bot!">
-    </a>
-  </p>
 
 ## 📞 Contact Us
-Need help regarding to this package? [Join our Discord Server!](https://suggy.sugger25.repl.co/discord)
+Need help regarding to this package? Join our Discord Server!]
+   <p align=center>
+    <a href="https://discord.gg/egEgFkugXW">
+     <img src="https://invidget.switchblade.xyz/egEgFkugXW" alt="Discord Server">
+     </a>
+    </p>
 
 
 ## ✍️ License
