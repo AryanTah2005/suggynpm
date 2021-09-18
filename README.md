@@ -20,6 +20,9 @@
   </a>
    </p>
 
+## Changelog
+Changelog can be found [here](https://github.com/Sugger25e/suggynpm/blob/main/changelog.md)
+
 ## 📥 Installation
 ```bash
 npm i suggy
