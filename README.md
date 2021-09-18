@@ -1,5 +1,5 @@
 <p align=center>
-   <img src="https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/icon.png" alt=icon height=128px width=128px style="border-radius:50%;">
+   <img src="https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/icon.png" alt=icon height=128px width=128px>
 </p>
 
 <h1 align=center>
@@ -24,24 +24,23 @@
 ```bash
 npm i suggy
 ```
+or
+```bash
+npm i --no-bin-links suggy
+```
 
-## Usage
+### Beta
+```bash
+npm i suggy@beta
+```
+
+## 👆 Usage
 ```js
 const suggy = require("suggy")
 ```
-## Examples
+## 🔧 Examples
 ### Trivia
 ```js
-const { Client } = require("discord.js")
-const suggy = require("suggy")
-const client = new Client({
-   intents: 32767
-})
-
-client.on("ready" async () =>{
-  console.log("Ready!")
-})
-
 client.on("messageCreate", async (message) =>{
     if(message.content.startsWith("trivia")) {
       suggy.trivia(message, {
@@ -58,16 +57,6 @@ client.on("messageCreate", async (message) =>{
 
 ### Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
-const { Client } = require("discord.js")
-const suggy = require("suggy")
-const client = new Client({
-   intents: 32767
-})
-
-client.on("ready" async () =>{
-  console.log("Ready!")
-})
-
 client.on("messageCreate", async (message) =>{
 
   
@@ -75,9 +64,19 @@ client.on("messageCreate", async (message) =>{
       suggy.embedder(message)
   }
 })
-
 ```
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
+
+### Rickroll
+```js
+client.on("messageCreate", async (message) =>{
+
+  
+  if(message.content.startsWith("rickroll")) {
+      suggy.rickroll(message)
+  }
+})
+```
 
 
 ## You can check full examples [here](https://github.com/Sugger25e/suggynpm/tree/main/examples)

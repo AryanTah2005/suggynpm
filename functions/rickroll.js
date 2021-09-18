@@ -1,7 +1,36 @@
+const { joinVoiceChannel, createAudioPlayer, createAudioResource, NoSubscriberBehavior, AudioPlayerStatus } = require('@discordjs/voice');
+const path = require("path")
+
 async function rickroll(message) {
-if(!message.member.voice.channel) return console.log(chalk.bgRed.bold("[Error] User must be in a voice channel! [Suggy NPM]"))
-       if(message.guild.me.voice.channel && message.member.voice.channel.id !== message.guild.me.voice.channel.id) return console.log(chalk.bgRed.bold("[Error] I'm currently in other voice channel, please try again later. [Suggy NPM]"))
- let channel = message.member.voice.channel;     
+
+	 if(!message.author){
+		let member = message.guild.members.cache.get(message.user.id)
+		let channel = member.voice.channel;
+		if(!channel) throw new Error("[ Suggy NPM ] ‣ User is not in a voice channel")
+
+		const connection = joinVoiceChannel({
+			channelId: channel.id,
+			guildId: message.guild.id,
+			adapterCreator: message.guild.voiceAdapterCreator
+		})
+
+      const player = createAudioPlayer({
+     behaviors: {
+		noSubscriber: NoSubscriberBehavior.Pause,
+	},
+ });
+
+      const resource = createAudioResource(path.join(__dirname, '../src/rickroll.mp3'));
+player.play(resource); 
+  connection.subscribe(player)
+
+  player.on(AudioPlayerStatus.Idle, () => {
+       connection.destroy()
+}); 
+
+	} else { 
+  let channel = message.member.voice.channel;  
+  if(!channel) throw new Error("[ Suggy NPM ] ‣ User is not in a voice channel")   
       
 const connection = joinVoiceChannel({
 	channelId: channel.id,
@@ -15,12 +44,14 @@ const connection = joinVoiceChannel({
 	},
  });
       
- const resource = createAudioResource(path.join(`${process.cwd()}/src/rickroll.mp3`));
+ const resource = createAudioResource(path.join(__dirname, '../src/rickroll.mp3'));
 player.play(resource); 
-  connection.subscribe(player)      
-   
+  connection.subscribe(player)
+
   player.on(AudioPlayerStatus.Idle, () => {
-	
-  connection.destroy()
-});   
-}          
+       connection.destroy()
+}); 
+  }      
+}
+
+module.exports = rickroll;

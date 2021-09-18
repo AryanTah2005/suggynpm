@@ -1,34 +1,22 @@
 {
   "dependencies": {
+    "@discordjs/voice": "^0.6.0",
     "atob": "^2.1.2",
     "capitalize-first-letter": "^1.0.0",
+    "chalk": "^4.1.2",
     "discord.js": "^13.1.0",
-    "node-fetch": "^2.6.1"
+    "ffmpeg-static": "^4.4.0",
+    "node-fetch": "^2.6.1",
+    "opusscript": "^0.0.8",
+    "tweetnacl": "^1.0.3"
   },
-  "name": "suggy",
+  "name": "suggynpm",
   "version": "1.0.0",
-  "description": "Suggy package provides built-in commands for your discord.js project!",
+  "description": "testlol",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sugger",
-  "license": "MIT",
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sugger25e/suggynpm.git"
-  },
-  "keywords": [
-    "suggy",
-    "discord.js",
-    "embedder",
-    "trivia",
-    "discord",
-    "embed"
-  ],
-  "bugs": {
-    "url": "https://github.com/Sugger25e/suggynpm/issues"
-  },
-  "homepage": "https://github.com/Sugger25e/suggynpm#readme"
+  "license": "MIT"
 }
