@@ -11,12 +11,31 @@
     "tweetnacl": "^1.0.3"
   },
   "name": "suggy",
-  "version": "1.0.6",
+  "version": "1.0.7-beta",
   "description": "Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sugger",
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sugger25e/suggynpm.git"
+  },
+  "keywords": [
+    "suggy",
+    "trivia",
+    "discord.js",
+    "embedder",
+    "rickroll",
+    "suggynpm"
+  ],
+  "bugs": {
+    "url": "https://github.com/Sugger25e/suggynpm/issues"
+  },
+  "homepage": "https://github.com/Sugger25e/suggynpm#readme"
 }

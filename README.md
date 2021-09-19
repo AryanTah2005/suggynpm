@@ -21,15 +21,15 @@
    </p>
 
 ## Changelog
-Changelog can be found [here](https://github.com/Sugger25e/suggynpm/blob/main/changelog.md)
+Beta and Full Release Changelog can be found [here](https://github.com/Sugger25e/suggynpm/blob/main/changelog.md)
 
 ## 📥 Installation
+### Full Release
 ```bash
-npm i suggy
+npm i suggy / npm i --no-bin-links suggy
 ```
-or
 ```bash
-npm i --no-bin-links suggy
+yarn add suggy
 ```
 
 ### Beta
@@ -41,17 +41,15 @@ npm i suggy@beta
 ```js
 const suggy = require("suggy")
 ```
+
 ## 🔧 Examples
 ### Trivia
 ```js
-client.on("messageCreate", async (message) =>{
-    if(message.content.startsWith("trivia")) {
-      suggy.trivia(message, {
+      suggy.trivia(interaction, {
+      type: "SELECT_MENU", //Required, Options: "BUTTON" or "SELECT_MENU"
       placeholder: "Choose an answer", //Optional, Default: "Choices..."
       time: 30 //Optional, Default: 15 seconds
       })
-  }
-})
 
 ```
 ![Trivia](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/trivia.png)
@@ -60,25 +58,13 @@ client.on("messageCreate", async (message) =>{
 
 ### Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
-client.on("messageCreate", async (message) =>{
-
-  
-  if(message.content.startsWith("embedder")) {
-      suggy.embedder(message)
-  }
-})
+      suggy.embedder(interaction)
 ```
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
 
 ### Rickroll
 ```js
-client.on("messageCreate", async (message) =>{
-
-  
-  if(message.content.startsWith("rickroll")) {
       suggy.rickroll(message)
-  }
-})
 ```
 
 
@@ -91,7 +77,3 @@ Need help, bugs or issues regarding to this package? Join our Discord Server!
      <img src="https://discordapp.com/api/guilds/862268547380019210/widget.png?style=banner2">
      </a>
     </p>
-
-
-## ✍️ License
-License under [MIT](https://choosealicense.com/licenses/mit/). Please do not redistribute the package.
