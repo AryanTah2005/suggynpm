@@ -21,7 +21,7 @@
    </p>
 
 ## Changelog
-Beta and Full Release Changelog can be found [here](https://github.com/Sugger25e/suggynpm/blob/main/changelog.md)
+Beta and Full Release Changelog can be found [here!](https://github.com/Sugger25e/suggynpm/tree/main/changelog)
 
 ## 📥 Installation
 ### Full Release
