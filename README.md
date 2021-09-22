@@ -42,7 +42,12 @@ npm i suggy@beta
 const suggy = require("suggy")
 ```
 
-## 🔧 Examples
+## 🎲 Available Features 
+- [Trivia]()
+- [Embedder]()
+- [Rickroll]()
+
+## 🔧 Example
 ### Trivia
 ```js
 suggy.trivia(interaction, {
@@ -55,18 +60,11 @@ time: 30 // Optional, Default: 15 seconds
 ![Trivia](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/trivia.png)
 
 
-
 ### Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
 suggy.embedder(interaction)
 ```
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
-
-### Rickroll (Voice Channel)
-```js
-suggy.rickroll(interaction)
-```
-
 
 ## You can check full examples [here](https://github.com/Sugger25e/suggynpm/tree/main/examples)
 
