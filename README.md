@@ -21,7 +21,7 @@
    </p>
 
 ## Changelog
-Beta and Full Release Changelog can be found [here!](https://github.com/Sugger25e/suggynpm/tree/main/changelog)
+Beta and Full Release Changelog can be found [here!](https://github.com/Sugger25e/suggynpm/blob/main/changelog.md)
 
 ## 📥 Installation
 ### Full Release
@@ -45,10 +45,10 @@ const suggy = require("suggy")
 ## 🔧 Examples
 ### Trivia
 ```js
-      suggy.trivia(interaction, {
-      type: "SELECT_MENU", //Required, Options: "BUTTON" or "SELECT_MENU"
-      placeholder: "Choose an answer", //Optional, Default: "Choices..."
-      time: 30 //Optional, Default: 15 seconds
+suggy.trivia(interaction, {
+type: "SELECT_MENU", // Required, Options: "BUTTON" or "SELECT_MENU"
+placeholder: "Choose an answer", // Optional, Default: "Choices..."
+time: 30 // Optional, Default: 15 seconds
       })
 
 ```
@@ -58,20 +58,20 @@ const suggy = require("suggy")
 
 ### Embedder [(Concept by simply-djs. Check them out!)](https://www.npmjs.com/package/simply-djs)
 ```js
-      suggy.embedder(interaction)
+suggy.embedder(interaction)
 ```
 ![Embedder](https://raw.githubusercontent.com/Sugger25e/suggynpm/main/src/embedder.png)
 
-### Rickroll
+### Rickroll (Voice Channel)
 ```js
-      suggy.rickroll(message)
+suggy.rickroll(interaction)
 ```
 
 
 ## You can check full examples [here](https://github.com/Sugger25e/suggynpm/tree/main/examples)
 
 ## 📞 Contact
-Need help, bugs or issues regarding to this package? Join our Discord Server!
+Need help, bugs, or suggestions regarding to this package? Join our Discord Server!
    <p align=center>
     <a href="https://discord.gg/egEgFkugXW">
      <img src="https://discordapp.com/api/guilds/862268547380019210/widget.png?style=banner2">
