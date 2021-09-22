@@ -43,9 +43,9 @@ const suggy = require("suggy")
 ```
 
 ## 🎲 Available Features 
-- [Trivia]()
-- [Embedder]()
-- [Rickroll]()
+- [Trivia](https://github.com/Sugger25e/suggynpm/blob/main/examples/trivia.js)
+- [Embedder](https://github.com/Sugger25e/suggynpm/blob/main/examples/embedder.js)
+- [Rickroll](https://github.com/Sugger25e/suggynpm/blob/main/examples/rickroll.js)
 
 ## 🔧 Example
 ### Trivia
