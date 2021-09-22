@@ -14,7 +14,7 @@
   "version": "1.0.8",
   "description": "Suggy package provides you built-in fun, games, and utility commands for your Discord.JS Project!",
   "main": "index.js",
-  "typings":  "index.ts",
+  "typings":  "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
